@@ -8,9 +8,9 @@ import './App.css'
 function App() {
     return (
     <div>
-        <Title teamNumber={8} hobby1="Basketball" hobby2="" />
+        <Title teamNumber={8} hobby1="Media Analysis" hobby2="Something" />
         <Intro name1="Brandon" name2="Ali" />
-        <Hobby1 hobby="Basketball" imageSrc="Basketbaloo.jpg" />
+        <Hobby1 hobby="Media Analysis" imageSrc="/MediaAnalysis.jpeg" />
         <Hobby2 hobby="" imageSrc="" />
     </div>
     );

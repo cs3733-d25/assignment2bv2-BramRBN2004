@@ -12,7 +12,7 @@ const Hobby1: React.FC<HobbyProps> = ({hobby, imageSrc}) => {
     return (
         <div>
             <h2>{hobby}</h2>
-            <img src={imageSrc} alt = {hobby} width = "300"/>
+            <img src={imageSrc} alt = {hobby} width = "100"/>
             <List1 />
             <Table1 />
             <Form1 />

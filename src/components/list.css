@@ -1,0 +1,10 @@
+ul {
+    list-style-type: square;
+    color: darkgreen;
+}
+
+/* Style the first item in the list differently */
+ul li:first-child {
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+}

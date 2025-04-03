@@ -3,18 +3,29 @@ import React from "react"
 const Table1: React.FC = () => {
     return (
         <table>
-            <thead>
+            <h2>MEDIA I'VE ANALYZED</h2>
+            <table className="collapse">
                 <tr>
-                    <th>Column 1</th>
-                    <th>Column 2</th>
+                    <th>Name</th>
+                    <th>Media Type</th>
+                    <th>Themes/Messagaes</th>
                 </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Data 1</td>
-                <td>Data 2</td>
-            </tr>
-            </tbody>
+                <tr>
+                    <th>Undertale</th>
+                    <th>Video Game</th>
+                    <th>Actions have consequences</th>
+                </tr>
+                <tr>
+                    <th>Attack on Titan</th>
+                    <th>Anime</th>
+                    <th>Wars, Survival, Cycle of Violence, and the human condition</th>
+                </tr>
+                <tr>
+                    <th>The Incredibles</th>
+                    <th>Movie</th>
+                    <th>Family, Not taking life for granted and enjoying the life you have</th>
+                </tr>
+            </table>
         </table>
     );
 };

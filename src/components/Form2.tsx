@@ -2,13 +2,16 @@ import React from "react";
 
 const Form2: React.FC = () => {
     return (
-        <form>
-            <label>
-                Input:
-                <input type = "text" />
-            </label>
-            <button type="submit">Submit</button>
-        </form>
+        <><p>------------------------------------------------</p>
+            <h2>Ali Feedback Form </h2>
+            <form>
+                <label>
+                    Input:
+                    <input type="text"/>
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </>
     );
 };
 
