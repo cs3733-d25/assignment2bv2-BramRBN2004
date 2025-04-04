@@ -11,7 +11,7 @@ function App() {
         <Title teamNumber={8} hobby1="Media Analysis" hobby2="Something" />
         <Intro name1="Brandon" name2="Ali" />
         <Hobby1 hobby="Media Analysis" imageSrc="/MediaAnalysis.jpeg" />
-        <Hobby2 hobby="" imageSrc="" />
+        <Hobby2 hobby="Basketball" imageSrc="basketball-banner.jpg" />
     </div>
     );
 };
